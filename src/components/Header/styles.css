@@ -1,0 +1,35 @@
+.header{
+    width: 100vw;
+    background: hsla(172, 91%, 36%, 1);
+    background: linear-gradient(135deg, hsla(172, 91%, 36%, 1) 0%, hsla(173, 88%, 27%, 1) 54%, hsla(172, 91%, 36%, 1) 100%);  
+    background: -moz-linear-gradient(135deg, hsla(172, 91%, 36%, 1) 0%, hsla(173, 88%, 27%, 1) 54%, hsla(172, 91%, 36%, 1) 100%);
+    background: -webkit-linear-gradient(135deg, hsla(172, 91%, 36%, 1) 0%, hsla(173, 88%, 27%, 1) 54%, hsla(172, 91%, 36%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#08B099", endColorstr="#088071", GradientType=1 );
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.navegation{
+    background-color:transparent;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 70%;
+    height: 10vh;
+}
+
+.navegation a{
+    text-decoration: none;
+    color:#FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.navegation a:hover{
+    font-size: 13px;
+    transition: 0.3s ease-in-out;
+    
+    font-weight: 600;
+}
