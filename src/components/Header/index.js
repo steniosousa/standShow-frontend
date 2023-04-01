@@ -1,16 +1,16 @@
 import './styles.css';
 export default function Header(){
     return(
-    <div className="header">
+    <div className="header" id="home">
         <nav className='navegation'>
-            <a href="#">Home</a>
-            <a href="#">Eventos</a>
-            <a href="#">Serviços</a>
-            <a href="#">Clientes</a>
-            <a href="#">Novidades</a>
-            <a href="#">Depoimentos</a>
+            <a href="#home">Home</a>
+            <a href="#events">Eventos</a>
+            <a href="#service">Serviços</a>
+            <a href="#clients">Clientes</a>
+            <a href="#new">Novidades</a>
+            <a href="#depoiment">Depoimentos</a>
             {/* <a href="#">Arquivos FTP</a> */}
-            <a href="#">Contato</a>
+            <a href="#contact">Contato</a>
         </nav>
     </div>
     )

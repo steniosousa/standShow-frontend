@@ -11,6 +11,10 @@
     flex-direction: column;
     justify-content: center;
 }
+html {
+    scroll-behavior: smooth;
+    }
+  
 .navegation{
     background-color:transparent;
     justify-content: space-around;

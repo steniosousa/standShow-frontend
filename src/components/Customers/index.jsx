@@ -2,7 +2,7 @@ import './style.css';
 
 export function Customers () {
   return (
-    <div className="controlPanel">
+    <div className="controlPanel" id="clients">
       <p><span>+ De 90 Clientes</span> <br></br> Inovam Conosco</p>
       <div className="grid">
         <img src="https://bordandonapratica.com.br/wp-content/uploads/2020/05/Matriz-De-Bordado-Escudo-Flamengo-para-bordar-2-.png" alt="" />
