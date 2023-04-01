@@ -1,27 +1,122 @@
-.card{
-    width: 20%;
-    height: 50vh;
+.container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
-    background: white;
+    width: 380px;
+    height: auto;
+    background: transparent;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 4rem;
+    border: 1px solid rgb(8, 175, 153);
+    transition: 1s;
+  }
+
+.container:hover {
+    margin-top: -5rem;
+    transition: 0.6s;
+}
+  
+  .avatar {
+    width: 19rem;
+    height: 18rem;
+    margin-top: 30px;
+    margin-bottom: 40px;
     border-radius: 10px;
-}
-
-.img{
-    height: 500px;
-    width: 80%;
-    background-image: url('https://www.standshow.com.br/imagens/uploads/novidades/miniaturas/800_569e0dcbee46b2f44b4c87543699e5ea.jpeg');
     background-position: center;
-    background-repeat: no-repeat;
-    margin: 2%;
-    margin-top: 5%;
     background-size: cover;
-    box-shadow:  3px 3px 3px 3px grey;
-    border-radius: 2px;
-}
+  }
+  
+  .title {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
 
-.card h2{
-    font-family: 'Courier New', Courier, monospace;
-}
+  .text {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  
+  .text p {
+    font-size: larger;
+    font-weight: 600;
+    line-height: 1.7rem;
+    color: #748BAC;
+  }
+  
+  .value {
+    display: flex;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    border-bottom: 2px solid #2F4159;
+  }
+  
+  .coinValue {
+    display: flex;
+    align-items: center;
+  }
+  
+  #eth {
+    width: 13px;
+    color: #0DF9F4;
+    margin-right: 6px;
+  }
+  
+  .colorInternalLeft {
+     color: #0DF9F4;
+  }
+  
+  .date {
+    display: flex;
+    align-items: center;
+  }
+  
+  #iconTime {
+    width: 15px;
+    color: #93B2D9;
+    margin-right: 6px;
+  }
+  
+  .colorInternalRight {
+    color: #93B2D9;
+    font-size: 17px;
+    font-weight: 300;
+  }
+  
+  #three {
+    margin-right: 3px;
+  }
+  
+  .owner {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin-top: 25px;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .picture {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+  }
+  
+  #profilelCoin {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+  }
+  
+  .owner p {
+    font-size: 18px;
+  }
+  
+  #colorTextFinal {
+    color: #93B2D9;
+    margin-right: 5px;
+  }

@@ -1,0 +1,27 @@
+.controlPanel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 40vh;
+  color: white;
+  background: black;
+}
+
+.controlPanel p {
+  width: 50%;
+  font-size: 4rem;
+}
+
+.controlPanel span {
+  color: hsla(172, 91%, 36%, 1);;
+}
+
+.grid {
+  display: flex;
+}
+
+.grid img {
+  width: 250px;
+  height: 250px;
+}
