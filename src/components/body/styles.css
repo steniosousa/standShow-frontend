@@ -1,6 +1,6 @@
 .body{
     background-color: black;
-    height: 90vh;
+    height: 75vh;
     width: 100vw;
     color: white;
     display: flex;
@@ -8,7 +8,7 @@
     align-items: center;
 }
 .body h1{margin: 0; margin-top: 10%;}
-.body h1 span{ color: hsla(172, 91%, 36%, 1);}
+.body span{ color: hsla(172, 91%, 36%, 1);}
 .body h3{
     font-size: 64px;
     width: 60%;
@@ -32,8 +32,10 @@
     color: black ;
     font-weight: 500;
     background-color:  hsla(172, 91%, 36%, 1);
+    transition: 1s;
 }
 .buttons button:hover{
     color: white;
-    transition: .6s;
+    transition: 0.6s;
+    background-color:  rgba(8, 175, 153, 0.603);
 }
