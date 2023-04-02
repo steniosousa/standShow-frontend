@@ -16,6 +16,8 @@
    100% {  }
   }
 .body h1{margin: 0; margin-top: 10%;}
+
+
 .body span{ color: hsla(172, 91%, 36%, 1);}
 .body h3{
     font-size: 64px;
@@ -24,6 +26,8 @@
     font-weight: 600;
     font-style: italic;
 }
+
+
 .buttons{
     width: 40%;
     display: flex;
@@ -34,14 +38,13 @@
 .buttons button{
     height: 40px;
     width: 80%;
-  padding: 10px;
-  font-size: 15px;
-  font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
     border: none;
     outline: none;
     border-radius: 15px;
     cursor: pointer;
-   
     font-weight: 500;
     color: #000000;
     background: white;
@@ -51,4 +54,11 @@
     color: white;
   background: #df8a0b;
   transition: 1s;
+}
+
+@media screen and (max-width:700px) {
+    .body h3{font-size: 40px;} 
+    .buttons button{
+       display: none;
+    }
 }

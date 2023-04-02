@@ -11,12 +11,20 @@
     border: 1px solid rgb(8, 175, 153);
     transition: 1s;
     cursor: pointer;
-  }
+    
+}
 
-.container:hover {
+
+
+@media screen and (min-width:691px) {
+  .container:hover {
     margin-top: -5rem;
     transition: 0.6s;
 }
+   
+}
+
+
   
   .avatar {
     width: 19rem;

@@ -57,7 +57,7 @@
 }
 
 .detailLeftP {
-  width: 50vw;
+
   font-size: 18px;
   font-weight: 600;
   line-height: 50px;
@@ -65,21 +65,9 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .rigth {
   position: relative;
- 
+
   -webkit-animation: slide-inRigth 1s forwards;
   animation: slide-inRigth 1s forwards;
   width: 40vw;
@@ -125,7 +113,7 @@
 
 
 
-.detailRigthtH3 {
+.detailHigthtH3 {
   display: block;
   margin-top: -5rem;
   margin-bottom: 5rem;
@@ -136,7 +124,6 @@
 }
 
 .detailRigthtP {
-  width: 50vw;
   font-size: 18px;
   font-weight: 600;
   line-height: 50px;
@@ -159,8 +146,8 @@
   align-items: center;
   justify-content: space-around;
   margin: 18px;
+  font-size: 10px;
 }
-
 
 
 
@@ -187,4 +174,48 @@
 
 .secondImage img {
   box-shadow: 15px 11px 11px 4px rgba(125,125,125,1);
+}
+
+@media screen and (max-width:1486px) {
+  .detailLeftH3 {
+    font-size: 50px;
+  }
+  .detailhigthtH3 {
+    font-size: 50px;
+  }
+
+}
+
+@media screen and (max-width:1036px) {
+  .detailLeftH3 {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+  #imageLeft{
+    display: none;
+  }
+  .detailLeftP {
+    font-size: 14px;
+  }
+
+  .detailHigthtH3 {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+  #imageRigth{
+    display: none;
+  }
+  .detailRigthtP {
+    font-size: 14px;
+  }
+  
+}
+
+@media screen and (max-width:461px) {
+  .detailHigthtH3 {
+    font-size: 25px;
+ 
+  }
+ 
+  
 }

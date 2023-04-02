@@ -25,3 +25,21 @@
   width: 250px;
   height: 250px;
 }
+
+@media screen and (max-width:1262px) {
+  .controlPanel p {
+    width: 50%;
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width:994px) {
+  .grid {
+   display: none;
+  }
+  .controlPanel{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+}

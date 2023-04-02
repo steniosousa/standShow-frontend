@@ -55,14 +55,13 @@ const[activeVerifyScroll,setActiveVerifyScroll] = useState(0)
               </p>
             </div>
           </div>
-
         </>
       ):position === "right" ?(
         <>
           <div className='containerLeft' id="right">
             <div className='detail' id='detailRigth'>
-              <h3 className='detailLeftH3'>Comprometimento</h3>
-              <p className='detailLeftP'>
+              <h3 className='detailHigthtH3'>Comprometimento</h3>
+              <p className='detailRigthtP'>
                 Stand é a montadora oficial de um dos maiores eventos de turismo que temos no Brasil!
 
                 Temos a responsabilidade de atender com qualidade e excelência uma feira que conta com quase 3.500m² de área construída.

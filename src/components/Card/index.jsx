@@ -25,9 +25,9 @@ export default function Card({urlImage,title,text,city,yeah,user}){
 
                 <div className="owner">
                     <div className="picture">
-                        <img src="./image/Vitalik-Buterin-PNG.png" id="profilelCoin" alt="profile"/>
+                        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" id="profilelCoin" alt="profile"/>
                     </div>
-                    <p><span id="colorTextFinal">Ceation of </span>{user}</p>
+                    <p><span id="colorTextFinal">Creation of </span>{user}</p>
                 </div>
         </div>
     )

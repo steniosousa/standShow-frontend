@@ -5,10 +5,41 @@
   width: 100vw;
   background: black;
 }
+
 .cardsForm{
   align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap:3%;
+  gap:3%; 
+  height: auto;
 }
+
+.row{
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+  width: 100vw;
+  height: auto;
+}
+.card {
+  /*float: left;*/
+  max-width: 100%;
+  height: auto;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+  width: 100%;
+}
+
+.card-text {
+  font-size: 85%;
+}
+
+
