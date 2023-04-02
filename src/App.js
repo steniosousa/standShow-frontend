@@ -10,7 +10,7 @@ import {  New } from './components/new';
 function App() {
   return (
     <div className="App">
-        {/* <Ftp/> */}
+        <Ftp/>
         <Header/>
          <Body/>
         <div className="row">

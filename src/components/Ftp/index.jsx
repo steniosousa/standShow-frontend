@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './style.css';
 
 export function Ftp() {
@@ -6,7 +6,6 @@ export function Ftp() {
   const [activeAnimation, setActiveAnimation] = useState('')
   const [activeLongerInput, setActiveLongerInput] = useState('')
   function handleEnableCard(){
-    
     if(active === false){
       setActiveAnimation("activeAnimation")
       setActiveLongerInput("activeLongerInput")
@@ -17,13 +16,14 @@ export function Ftp() {
       setActive(!active)
     }
   }
+
+  useEffect(() =>{handleEnableCard()},[])
   return (
     <div className='ftpButton'>
       <a href='#home'>
         <button type="submit" className='btn' onClick={handleEnableCard}>
         +
       </button>
-
       </a>
         <div  id={activeAnimation}>
           <div className="iconUser">
@@ -35,6 +35,7 @@ export function Ftp() {
           </div>
           <button type="submit" id='buttonLogin' className={activeLongerInput}>Login</button>
         </div>
-    </div>
+
+      </div>
   )
 }
