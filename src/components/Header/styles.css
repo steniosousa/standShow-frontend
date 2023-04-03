@@ -30,10 +30,16 @@ html, body {
   width: 100%;
   padding: 1em;
 }
-.top-nav span{ 
+/* .top-nav span{ 
     color: hsla(172, 91%, 36%, 1);
     background-color: #222;
+} */
+
+.nameLogo {
+  font-size: 18px;
+  font-weight: 600;
 }
+
 .menu {
   display: flex;
   flex-direction: row;

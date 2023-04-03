@@ -12,9 +12,9 @@ return(
         <h1 id="logo">Stand<span>Show</span></h1>
         <h3>O melhor da <span>Arquitetura</span>  e <span>Design</span>, junto com você</h3>
         <div className='buttons'>
-            <button>Instagram</button>
+            <button onClick={() => window.location.assign("https://www.instagram.com/grupostandshow/")}>Instagram</button>
             <button>Whatsapp</button>
-            <button>Facebook</button>
+            <button onClick={() => window.location.assign("https://www.facebook.com/grupostandshow/")}>Facebook</button>
         </div>
     </div>
 )

@@ -1,13 +1,16 @@
 .left {
   position: relative;
- 
   -webkit-animation: slide-in 1s forwards;
   animation: slide-in 1s forwards;
   width: 40vw;
   height: 50vh;
-  border-radius: 20px;
-  box-shadow: -12px 11px 11px 4px rgba(125,125,125,1);
 }
+
+#imageLeft {
+  width: 40%;
+  height: 100%;
+}
+
 .teste{
   display: none;
 }
@@ -28,7 +31,6 @@
   bottom: -30em;
   -webkit-animation: detailMove 1s forwards;
   animation: detailMove 1s forwards;
-  
 }
 
 
@@ -43,13 +45,14 @@
  100% { bottom: 0; }
 }
 
-
+.subtitleLeft {
+  width: 30%;
+  padding: 5px;
+}
 
 
 .detailLeftH3 {
-  display: block;
-  margin-top: -5rem;
-  margin-bottom: 5rem;
+  margin: 0;
   font-size: 5rem;
   font-weight: 900;
   font-family: 'Montserrat', sans-serif;
@@ -57,79 +60,21 @@
 }
 
 .detailLeftP {
-
+  margin-left: 2%;
+  text-align: left;
   font-size: 18px;
+  letter-spacing: 2px;
   font-weight: 600;
-  line-height: 50px;
+  line-height: 20px;
   word-break: break-word;
   font-family: 'Montserrat', sans-serif;
 }
 
-.rigth {
-  position: relative;
 
-  -webkit-animation: slide-inRigth 1s forwards;
-  animation: slide-inRigth 1s forwards;
-  width: 40vw;
-  height: 50vh;
-  border-radius: 20px;
-  box-shadow: -12px 11px 11px 4px rgba(125,125,125,1);
-}
 .teste{
   display: none;
 }
-@-webkit-keyframes slide-inRigth {
-  0%{ right: -30em;}
-  100% { left: 0 }
-}
-@keyframes slide-inRigth {
-  0%{ right: -30em;}
- 100% { right: 0; }
-}
-.detail{
-  display: none;
-}
 
-.detailRigth{
-  position: relative;
-  bottom: -30em;
-  -webkit-animation: detailMoveRigth 1s forwards;
-  animation: detailMoveRigth 1s forwards;
-  
-}
-
-
-  @-webkit-keyframes detailMoveRigth {
-    0%{display: none;}
-    70%{display: block;}
-    100% { bottom: 0 }
-  }
-  @keyframes detailMoveRigth {
-    0%{display: none;}
-    70%{display: block;}
-  100% { bottom: 0; }
-  }
-
-
-
-
-.detailHigthtH3 {
-  display: block;
-  margin-top: -5rem;
-  margin-bottom: 5rem;
-  font-size: 5rem;
-  font-weight: 900;
-  font-family: 'Montserrat', sans-serif;
-  color: rgb(8, 175, 153);
-}
-
-.detailRigthtP {
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 50px;
-  word-break: break-word;
-  font-family: 'Montserrat', sans-serif;
-}
 
 .insideCompany{
   height: auto ;
@@ -142,45 +87,15 @@
 .containerLeft {
   display: flex;
   width: 100%;
+  height: auto;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  margin: 18px;
+  justify-content: center;
   font-size: 10px;
-}
-
-
-
-.containerImages {
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  background: #F5F5F7;
-}
-
-.containerImages img {
-  width: 40vw;
-  height: 50vh;
-  border-radius: 20px;
-  box-shadow: -12px 11px 11px 4px rgba(125,125,125,1);
-  margin-top: 7rem;
-}
-
-.secondImage {
-  margin-top: -32rem;
-}
-
-.secondImage img {
-  box-shadow: 15px 11px 11px 4px rgba(125,125,125,1);
+  background: url(https://img.freepik.com/vetores-gratis/textura-cinza-grunge-em-fundo-branco_1409-2134.jpg?w=2000);
 }
 
 @media screen and (max-width:1486px) {
   .detailLeftH3 {
-    font-size: 50px;
-  }
-  .detailhigthtH3 {
     font-size: 50px;
   }
 
@@ -198,24 +113,11 @@
     font-size: 14px;
   }
 
-  .detailHigthtH3 {
-    font-size: 40px;
-    margin-top: 10px;
-  }
-  #imageRigth{
+  #image{
     display: none;
   }
-  .detailRigthtP {
-    font-size: 14px;
+  .subtitleLeft {
+    width: 90%;
   }
-  
-}
-
-@media screen and (max-width:461px) {
-  .detailHigthtH3 {
-    font-size: 25px;
- 
-  }
- 
   
 }

@@ -6,6 +6,8 @@ import { Company } from './components/Company';
 import { Customers } from './components/Customers';
 import { Ftp } from './components/Ftp';
 import {  New } from './components/new';
+import { Footer } from './components/Footer';
+import { Example } from './components/Exemple';
 
 function App() {
   return (
@@ -14,7 +16,7 @@ function App() {
         <Header/>
          <Body/>
         <div className="row">
-          <div className="card">
+            <div className="card">
               <Card 
               urlImage={"https://news.mst.edu/files/2022/03/20211029-TEDx-Missouri-ST-NR-19-1.jpg"} 
               city={'Fortaleza - CE'} 
@@ -32,11 +34,19 @@ function App() {
             <div className="card">
               <Card urlImage={"https://www.artemidiacomunicacao.com.br/media/sig_j8PwBnwnzL/produtos/stand-para-eventos/stand-para-eventos-01.jpeg"} city={'Natal - RN'} user={'Luciana Mendes'} yeah={2020}  text={'Organize seu evento conosco'} title={'Stand para Evento'}/>
             </div>
+            <div className="card">
+              <Card urlImage={"https://www.artemidiacomunicacao.com.br/media/sig_j8PwBnwnzL/produtos/stand-para-eventos/stand-para-eventos-01.jpeg"} city={'Natal - RN'} user={'Luciana Mendes'} yeah={2020}  text={'Organize seu evento conosco'} title={'Stand para Evento'}/>
+            </div>
         </div>
         <Company position={"left"}/>
-       <Company position={"right"}/>
+       {/* <Company position={"right"}/> */}
          {/* <New/> */}
-        <Customers/>
+         <div className='examplearea'>
+          <Example/>
+         </div>
+          <Customers/>
+          {/* <Footer/> */}
+        
     </div>
   );
 }

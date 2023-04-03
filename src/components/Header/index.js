@@ -3,7 +3,7 @@ export default function Header(){
     return(
     <div className="header" id="home">
          <section class="top-nav">
-            <div>
+            <div className='nameLogo'>
             Stand<span>Show</span>
             </div>
             <input id="menu-toggle" type="checkbox" />
@@ -18,19 +18,19 @@ export default function Header(){
                     <a href="#events">Eventos</a>
                 </li>
                 <li>
-                    <a href="#service">Serviços</a>
+                    <a href="#service">Empresa</a>
+                </li>
+                <li>
+                    <a href="#modelos">Modelos</a>
                 </li>
                 <li>
                     <a href="#clients">Clientes</a>
                 </li>
                 <li>
-                    <a href="#new">Novidades</a>
+                    <a href="#depoiment" style={{textDecoration: 'line-through'}}>Depoimentos</a>
                 </li>
                 <li>
-                    <a href="#depoiment">Depoimentos</a>
-                </li>
-                <li>
-                    <a href="#contact">Contato</a>
+                    <a href="#contact" style={{textDecoration: 'line-through'}}>Contato</a>
                 </li>
             {/* <a href="#">Arquivos FTP</a> */}
             </ul>
