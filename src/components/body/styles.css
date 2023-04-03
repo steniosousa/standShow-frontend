@@ -47,13 +47,13 @@ color:black;
     border-radius: 15px;
     cursor: pointer;
     font-weight: 500;
-    color: #000000;
-    background: white;
+    color: white;
+    background: black;
     transition: 1s;
 }
 .buttons button:hover{
-    color: white;
-  background: #df8a0b;
+  color: white;
+  background: hsla(172, 91%, 36%, 1);
   transition: 1s;
 }
 

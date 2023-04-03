@@ -15,13 +15,13 @@ export default function Header(){
                     <a href="#home">Home</a>
                 </li>
                 <li>
+                    <a href="#modelos">Modelos</a>
+                </li>
+                <li>
                     <a href="#events">Eventos</a>
                 </li>
                 <li>
                     <a href="#service">Empresa</a>
-                </li>
-                <li>
-                    <a href="#modelos">Modelos</a>
                 </li>
                 <li>
                     <a href="#clients">Clientes</a>

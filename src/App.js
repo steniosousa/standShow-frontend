@@ -15,6 +15,9 @@ function App() {
         <Ftp/>
         <Header/>
          <Body/>
+         <div className='examplearea'>
+          <Example/>
+         </div>
         <div className="row">
             <div className="card">
               <Card 
@@ -41,9 +44,6 @@ function App() {
         <Company position={"left"}/>
        {/* <Company position={"right"}/> */}
          {/* <New/> */}
-         <div className='examplearea'>
-          <Example/>
-         </div>
           <Customers/>
           {/* <Footer/> */}
         
