@@ -1,4 +1,5 @@
 import './styles.css'
+import teste from '../../assets/estande modular.jpeg'
 export default function Card({urlImage,title,text,city,yeah,user}){
     return(
         <div className="container" id="events">
@@ -6,7 +7,6 @@ export default function Card({urlImage,title,text,city,yeah,user}){
                 <div className="title">
                     <h1>{title}</h1>
                 </div>
-
                 <div className="text">
                 <p>
                    {text}
@@ -25,7 +25,7 @@ export default function Card({urlImage,title,text,city,yeah,user}){
 
                 <div className="owner">
                     <div className="picture">
-                        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" id="profilelCoin" alt="profile"/>
+                        <img src="https://www.standshow.com.br/imagens/uploads/novidades/miniaturas/800_57a6464db82e63f0ac35eaa6623b9334.jpeg" id="profilelCoin" alt="profile"/>
                     </div>
                     <p><span id="colorTextFinal">Creation of </span>{user}</p>
                 </div>

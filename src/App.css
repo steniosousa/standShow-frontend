@@ -16,18 +16,35 @@
 
 .row{
   display: flex;
+  margin-top: 5%;
   flex-direction: row;
   overflow-y: hidden;
+  overflow-x: scroll;
   width: 100vw;
-  height: auto;
-  background: linear-gradient(180deg, rgba(0,0,0,1) 32%, rgba(13,26,45,1) 83%);
+  background: linear-gradient(180deg,#2adda44b 10% , rgb(143, 143, 143)  90%);
+  transition: 0.6s;
 }
 
+.buttonsScroll{
+  display: flex;
+  justify-content: center;
+  gap: 1%;
+  margin-top: 1%;
+}
+.buttonsScroll button{
+  color: white;
+  height: 5%;
+  width: 8%;
+  border-radius: 10px;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(180deg, rgb(92, 92, 92) 32%,#2ADDA5 90%);
+}
 .card {
 
   margin-top: 5rem;
   max-width: 100%;
-  height: auto +30px;
   padding: .75rem;
   margin-bottom: 2rem;
   border: 0;
