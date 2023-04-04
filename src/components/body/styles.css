@@ -1,7 +1,7 @@
-.body{
+.menuBody{
     background-color: white;
-    height: 75vh;
     width: 100vw;
+    height: auto;
     color: black;
     display: flex;
     flex-direction: column;
@@ -15,17 +15,17 @@
     0%{ font-size: 1px;}
    100% {  }
   }
-.body h1{margin: 0; margin-top: 10%;}
+.menuBody h1{margin: 0; margin-top: 10%;}
 
 
-.body span{ color: hsla(172, 91%, 36%, 1);}
-.body h3{
+.menuBody span{ color: hsla(172, 91%, 36%, 1);}
+.menuBody h3{
     font-size: 64px;
     width: 60%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-style: italic;
-color:black;
+    color:black;
 }
 
 
@@ -58,7 +58,7 @@ color:black;
 }
 
 @media screen and (max-width:700px) {
-    .body h3{font-size: 40px;} 
+    .menuBody h3{font-size: 40px;} 
     .buttons button{
        display: none;
     }

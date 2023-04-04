@@ -8,7 +8,7 @@ export default function Body(){
         startPage()
     },[])
 return(
-    <div className="body">
+    <div className="menuBody">
         <h1 id="logo">Stand<span>Show</span></h1>
         <h3>O melhor da <span>Arquitetura</span>  e <span>Design</span>, junto com você</h3>
         <div className='buttons'>
