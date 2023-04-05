@@ -19,7 +19,8 @@ function App() {
         <Ftp/>
         <Header/>
         <Body/>
-        <div>
+        <div className='buttonsSlid'>
+          <button className='buttonsScroll' onClick={left}>&#10094;</button>
           <div className="row" id="modelos">
                 <div className="card">
                   <Card 
@@ -33,7 +34,7 @@ function App() {
                 <div className="card">
                   <Card 
                   urlImage={'https://thumbs2.imgbox.com/d0/ca/5gnuaXTT_t.jpeg'} 
-                  city={'R$: XXX'} 
+                    city={''} 
                     user={'StandShow'} 
                     yeah={''}  
                     text={'Organize seu evento conosco'} 
@@ -76,10 +77,7 @@ function App() {
                   title={'Estande para Evento'}/>
                 </div>
             </div>
-          <div className='buttonsScroll'>
-            <button onClick={left}>&#10094;</button>
-            <button  onClick={rigth}>&#10095;</button>
-          </div>
+            <button  className='buttonsScroll' onClick={rigth}>&#10095;</button>
         </div>
           <Company/>
           <Customers/>

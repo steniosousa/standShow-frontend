@@ -16,7 +16,6 @@
 
 .row{
   display: flex;
-  margin-top: 5%;
   flex-direction: row;
   overflow-y: hidden;
   overflow-x: scroll;
@@ -24,23 +23,34 @@
   background: linear-gradient(180deg,#2adda44b 10% , rgb(143, 143, 143)  90%);
   transition: 0.6s;
 }
-
-.buttonsScroll{
+.buttonsSlid{
+  margin-top: 5%;
   display: flex;
+  width: 100vw;
   justify-content: center;
-  gap: 1%;
-  margin-top: 1%;
+  align-items: center;
 }
-.buttonsScroll button{
+.buttonsScroll{
+  position: sticky;
   color: white;
-  height: 5%;
-  width: 8%;
-  border-radius: 10px;
+  width: 3%;
+  height: 86vh;
+  border-radius: 0px 10px 10px 0px ;
   outline: 0;
   border: none;
   cursor: pointer;
-  background: linear-gradient(180deg, rgb(92, 92, 92) 32%,#2ADDA5 90%);
+  background:  rgba(13,26,45,1);
+  font-size: 2rem;
 }
+.buttonsScroll:hover{
+  background: black;
+}
+@media screen and (max-width:1000px) {
+  .buttonsScroll{
+    display: none;
+  }
+}
+
 .card {
 
   margin-top: 5rem;
