@@ -18,9 +18,6 @@ export default function Header(){
                     <a href="#modelos">Modelos</a>
                 </li>
                 <li>
-                    <a href="#events">Eventos</a>
-                </li>
-                <li>
                     <a href="#service">Empresa</a>
                 </li>
                 <li>
