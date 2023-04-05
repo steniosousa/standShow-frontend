@@ -66,25 +66,20 @@
 } */
 
 @media screen and (max-width:730px) {
-  #buttonLeftScroll {
-    align-items: center;
-    justify-content: center;
-    border-radius: 35%;
-    margin-top: 46.3rem;
-    margin-right: 5rem;
-  }
 
-  #buttonRightScroll {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  #buttonLeftScroll {
+    margin-right: 5rem;
     border-radius: 35%;
-    margin-left: 3rem;
-    margin-top: 46.3rem;
+  }
+  #buttonRightScroll {
+    margin-left: 2rem;
   }
 
   .buttonsScroll{
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     width: 35px;
     height: 20px;
@@ -93,6 +88,8 @@
     cursor: pointer;
     font-size: 1rem;
     background: linear-gradient(180deg, rgba(150,150,150,1) 44%, rgb(24, 224, 158) 83%);
+    margin-top: 46.8rem;
+    border-radius: 35%;
   }
 
   .buttonsScroll:hover{
