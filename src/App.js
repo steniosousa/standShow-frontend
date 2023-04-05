@@ -20,7 +20,7 @@ function App() {
         <Header/>
         <Body/>
         <div className='buttonsSlid'>
-          <button className='buttonsScroll' onClick={left}>&#10094;</button>
+          <button className='buttonsScroll' id='buttonLeftScroll' onClick={left}>&#10094;</button>
           <div className="row" id="modelos">
                 <div className="card">
                   <Card 
@@ -77,7 +77,7 @@ function App() {
                   title={'Estande para Evento'}/>
                 </div>
             </div>
-            <button  className='buttonsScroll' onClick={rigth}>&#10095;</button>
+            <button  className='buttonsScroll' id='buttonRightScroll' onClick={rigth}>&#10095;</button>
         </div>
           <Company/>
           <Customers/>

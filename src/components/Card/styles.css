@@ -6,7 +6,8 @@
     background: linear-gradient(180deg, rgba(0,0,0,1) 32%, rgba(13,26,45,1) 83%);
     color: white;
     border-radius: 20px;
-    border: 1px solid rgb(8, 175, 153);
+    border: none;
+    outline: none;
     transition: 1s;
     cursor: pointer;
 }
