@@ -66,35 +66,25 @@
 } */
 
 @media screen and (max-width:730px) {
-  .buttonsSlid{
-    margin-top: 5%;
-    display: flex;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-  }
   #buttonLeftScroll {
-    position: absolute;
-    display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 46.5rem;
-    left: 20.5rem;
     border-radius: 35%;
+    margin-top: 46.3rem;
+    margin-right: 5rem;
   }
 
   #buttonRightScroll {
-    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 46.5rem;
-    right: 18.8rem;
     border-radius: 35%;
+    margin-left: 3rem;
+    margin-top: 46.3rem;
   }
 
   .buttonsScroll{
-    position: sticky;
+    position: absolute;
     color: white;
     width: 35px;
     height: 20px;
